@@ -25,7 +25,9 @@ public class DoWhileLeaveEntitlement07 {
                     System.out.println("Your remaining leave allowance is insufficient!");
                     // break;
                 }
-            } 
+            } else if (confirmation.equalsIgnoreCase("t")) {
+                break;
+            }
 
         } while (leaveEntitlement > 0);
 
