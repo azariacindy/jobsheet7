@@ -23,7 +23,7 @@ public class DoWhileLeaveEntitlement07 {
                     System.out.println("Remaining leave allowance: " + leaveEntitlement);
                 } else {
                     System.out.println("Your remaining leave allowance is insufficient!");
-                    break;
+                    // break;
                 }
             } 
 
